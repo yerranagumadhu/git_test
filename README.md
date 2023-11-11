@@ -125,3 +125,10 @@ git checkout - switches to a branch
 git merge - merges two branches
 git pull - fetches changes from a remote repository and merges them into the current branch
 git push - pushes changes from the current branch to a remote repository
+
+<!-- To create a branch -->
+git branch <branch-name>
+<!-- To switch to a branch, -->
+git checkout <branch-name>
+<!-- To delete a branch -->
+git branch -d <branch-name>

@@ -108,39 +108,64 @@ Certainly! Here are some basic Git commands that you might find useful:
     git remote -v
     ```
 
-These are just some of the basic Git commands. Git has a rich set of features, so depending on your workflow, you might need additional commands and options. Don't forget to check the Git documentation for more details and options for each command.
-
-https://stackoverflow.com/questions/9529497/what-is-origin-in-git
-git remote show origin
-
-git remote rename origin TEST_REPO
-
-git init - initializes a new git repository
-git add - adds files to the index
-git commit - commits changes to the index
-git status - shows the status of the working tree and the index
-git log - shows the history of commits
-git branch - creates and lists branches
-git checkout - switches to a branch
-git merge - merges two branches
-git pull - fetches changes from a remote repository and merges them into the current branch
-git push - pushes changes from the current branch to a remote repository
-
-<!-- To create a branch -->
-
-13 **To Create a branch**:To Create a branch.
+13. **To Create a branch**:To Create a branch.
 
     ```bash
     git branch <branch-name>
     ```
 
-14 **TTo switch to a branch,**:TTo switch to a branch,
-    ```bash
-   git checkout <branch-name>
-    ```
-
-15 **To delete a branch**:To delete a branch.
+14. **To switch to a branch**:To switch to a branch
 
     ```bash
-   git branch -d <branch-name>
+    git checkout <branch-name>
     ```
+
+15. **To delete a branch**:To delete a branch.
+
+    ```bash
+     git branch -d <branch-name>
+    ```
+
+These are just some of the basic Git commands. Git has a rich set of features, so depending on your workflow, you might need additional commands and options. Don't forget to check the Git documentation for more details and options for each command.
+
+https://stackoverflow.com/questions/9529497/what-is-origin-in-git
+
+```bash
+git remote show origin
+```
+```bash
+git remote rename origin TEST_REPO
+```
+```bash
+git init - initializes a new git repository
+```
+```bash
+git add - adds files to the index
+```
+```bash
+git commit - commits changes to the index
+```
+```bash
+git status - shows the status of the working tree and the index
+```
+```bash
+git log - shows the history of commits
+```
+```bash
+git branch - creates and lists branches
+```
+```bash
+git checkout - switches to a branch
+```
+```bash
+git merge - merges two branches
+```
+```bash
+git pull - fetches changes from a remote repository and merges them into the current branch
+```
+```bash
+git push - pushes changes from the current branch to a remote repository
+```
+<!-- To create a branch -->
+
+
